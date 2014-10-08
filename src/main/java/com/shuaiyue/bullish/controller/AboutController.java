@@ -16,7 +16,7 @@ public class AboutController {
     @RequestMapping(value = "/about.html")
     @ResponseBody
     public String about() throws Exception {
-        return this.applicationName + " is up and running";
+        return this.applicationName + " is up and running!";
     }
 
 }
